@@ -15,6 +15,8 @@ public class Doctor extends Persona {
     protected String  especialidad;
     public ArrayList<Cita> citas;
     public ArrayList<Receta> recetasRegistradas;
+    public AreaMedica area;
+    public Secretaria secretaria;
     
 public void recetar(){}   
 public void agregarPlanNut(){}

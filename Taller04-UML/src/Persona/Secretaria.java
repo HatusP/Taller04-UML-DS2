@@ -8,6 +8,7 @@ package Persona;
 
 public class Secretaria extends Persona{
  public void verificar(){}  
- public void agendar(){}  
+ public void agendar(){}
+ public Doctor doctor;
     
 }

@@ -15,7 +15,8 @@ public class Persona {
    protected String apellido;      
    protected String cedula;      
    protected String dirrecion;      
-   protected Date fechaNac ;        
+   protected Date fechaNac ; 
+   public Persona persona;
            
 public boolean logln( ){return true;
 }
