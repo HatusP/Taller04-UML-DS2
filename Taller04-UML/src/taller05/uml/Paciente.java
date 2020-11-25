@@ -5,16 +5,28 @@
  */
 package taller05.uml;
 
+import Persona.Persona;
+import java.util.ArrayList;
+
 /**
  *
  * @author User
  */
-public class Paciente {
+public class Paciente extends Persona {
     protected String email;
     public Cita cita;
+    public HistoriaClinica historiaClinica;
+    public ArrayList<Receta> recetas;
     
     public boolean solicitarCita(){
         return false;
         
     }
+
+    public Paciente(HistoriaClinica historiaClinica, ArrayList<Receta> recetas) {
+        this.historiaClinica = historiaClinica;
+        this.recetas = recetas;
+    }
+    
+    
 }
