@@ -5,6 +5,7 @@
  */
 package taller05.uml;
 
+import Persona.Doctor;
 import java.util.Date;
 import taller05.uml.Pagos.Pago;
 
@@ -17,6 +18,8 @@ public class Cita {
     protected boolean pagada;
     protected String registradoPor;
     public Paciente paciente;
+    public Doctor doctor;
+    
     
     public void realizarPago(Pago pago){
         

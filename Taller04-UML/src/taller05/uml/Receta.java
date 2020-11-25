@@ -5,6 +5,7 @@
  */
 package taller05.uml;
 
+import Persona.Doctor;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -16,6 +17,7 @@ public class Receta {
     protected Date fecha;
     public ArrayList<PlanNutricional> planesNutricionales;
     public ArrayList<Medicamento> medicamentos;
+    public Doctor doctor;
 
     public Receta(Date fecha, ArrayList<PlanNutricional> planesNutricionales, ArrayList<Medicamento> medicamentos) {
         this.fecha = fecha;

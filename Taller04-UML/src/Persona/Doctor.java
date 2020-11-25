@@ -5,10 +5,16 @@
  */
 package Persona;
 
+import java.util.ArrayList;
+import taller05.uml.Cita;
+import taller05.uml.Receta;
+
 
 public class Doctor extends Persona {
     protected int regDoctor;
     protected String  especialidad;
+    public ArrayList<Cita> citas;
+    public ArrayList<Receta> recetasRegistradas;
     
 public void recetar(){}   
 public void agregarPlanNut(){}

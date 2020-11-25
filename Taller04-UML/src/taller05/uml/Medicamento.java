@@ -15,4 +15,5 @@ public class Medicamento {
     protected String observaciones;
     protected int cantidadTotal;
     protected String unidad;
+    public Receta receta;
 }
